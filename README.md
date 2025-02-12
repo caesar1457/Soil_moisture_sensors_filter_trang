@@ -1,4 +1,4 @@
-# EKF Soil Moisture Sensor Project
+# Soil Moisture Sensor Project
 
 ## Project Overview
 This project implements a soil moisture sensor system based on Extended Kalman Filter (EKF). The system consists of Arduino code and Python code, which are used for sensor data acquisition and filtering, respectively.

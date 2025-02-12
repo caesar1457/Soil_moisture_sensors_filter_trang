@@ -42,8 +42,18 @@ pip install matplotlib
 - Ensure the Arduino code is successfully uploaded and running before executing the Python code.
 - Incorrect port selection will prevent data reading. Make sure to configure the correct serial port in `sensor_reader.py`.
 
+## Team Members
+- NUR NADHIRAH MUHAMAD NAZRIN
+- OWEN HALLIFAX
+- DHRUBA CHOWDHURY
+- CAESAR ZHAO (ZHIYE ZHAO)
+
 ## License
 This project follows the MIT License. Refer to the LICENSE file for details.
 
+## Date
+February 2025
+
 ---
 For any issues, contact the developer or submit an issue.
+

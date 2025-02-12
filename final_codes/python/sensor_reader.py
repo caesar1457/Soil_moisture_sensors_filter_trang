@@ -17,13 +17,13 @@ class SensorReader(threading.Thread):
 
     def run(self):
         try:
-            self.serial_conn = serial.Serial(self.port, self.baud_rate, timeout=1)
+            self.serial_conn = serial.Serial(self.port, self.baud_rate, timeout=0.1)
             print(f"Sensor {self.sensor_id} connected on {self.port}")
         except serial.SerialException as e:
             print(f"Error opening {self.port} for sensor {self.sensor_id}: {e}")
             return
         
-        # 正则表达式用来提取 Raw Value
+
         line_pattern = re.compile(r"Raw Value:\s*(\d+)")
         while not self.stop_event.is_set():
             try:

@@ -7,12 +7,14 @@ This project implements a soil moisture sensor system based on Extended Kalman F
 ```
 final_codes/
 │── Arduino \ 10mh_sensor/
-│   ├── EKF_sensor.ino  # Arduino code for sensor data processing
+│   ├── EKF_sensor.ino    # Arduino code for sensor data processing
 │── python/
-│   ├── ekf_module.py    # EKF-related module
-│   ├── main.py          # Main program entry
-│   ├── sensor_reader.py # Sensor data reading module
-│── __pycache__/        # Python cache files
+│   ├── ekf_module.py      # EKF-related module
+│   ├── main.py            # Main program entry
+│   ├── sensor_reader.py   # Sensor data reading module
+│   ├── visualizer.py      # Visualization module
+│── __pycache__/           # Python cache files
+
 ```
 
 ## Required Libraries
